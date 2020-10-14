@@ -1,4 +1,4 @@
-# Semantic Commit Messages
+# Semantic commit messages
 
 See how a minor change to your commit message style can make you a better programmer.
 
