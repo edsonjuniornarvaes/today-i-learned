@@ -1,35 +1,35 @@
-##Clear Cache with Artisan Command
+## Clear Cache with Artisan Command
 
-###Clear Route Cache in Laravel
-#####Laravel caching system also takes routes in consideration, to remove route cache in Laravel use the given below command:
+### Clear Route Cache in Laravel
+##### Laravel caching system also takes routes in consideration, to remove route cache in Laravel use the given below command:
 
 ```bash
 $ php artisan route:cache
 ```
 
-###Clear Application Cache in Laravel
-##Run the following command to clear application cache:
+### Clear Application Cache in Laravel
+## Run the following command to clear application cache:
 
 ```bash
 $ php artisan cache:clear
 ```
 
-###Clear Config Cache in Laravel
-#####Run the following command to clear config cache:
+### Clear Config Cache in Laravel
+##### Run the following command to clear config cache:
 
 ```bash
 $ php artisan config:cache
 ```
 
-###Clear View Cache in Laravel
-#####Run the following command to clean your view cache:
+### Clear View Cache in Laravel
+##### Run the following command to clean your view cache:
 
 ```bash
 $ php artisan view:clear
 ```
 
-###Reoptimize Class
-######Run the below command to reoptimize the class loader:
+### Reoptimize Class
+###### Run the below command to reoptimize the class loader:
 
 ```bash
 $ php artisan optimize
