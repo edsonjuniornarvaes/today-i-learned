@@ -1,10 +1,10 @@
-# Environment Resources
+## Environment Resources
 
 ### Removing all resources
 
-Docker offers a command to remove unused containers, networks and images.
+##### Docker offers a command to remove unused containers, networks and images.
 
-To remove:
+#### To remove:
 - All containers stopped
 - All networks not used by at least one container
 - All pending images (dangling images)
@@ -14,7 +14,7 @@ To remove:
 $ docker system prune
 ```
 
-To remove:
+#### To remove:
 - All containers stopped
 - All networks not used by at least one container
 - All volumes not used by at least one container
