@@ -26,13 +26,13 @@ git remote add origin repository_address
 git remote -v
 ```
 
-###### To avoid the accumulation of sources, remove the old source.
+##### To avoid the accumulation of sources, remove the old source.
 
 ``` bash
 git remote rm ancient-origin
 ```
 
-### Again, check that the changes have occurred as requested.
+##### Again, check that the changes have occurred as requested.
 
 ``` bash
 git remote -v
