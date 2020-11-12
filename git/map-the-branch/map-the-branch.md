@@ -16,13 +16,13 @@ See git-pull (1) for details.
 
 ### Checkout the branch where you want to create the mapping.
 
-`` bash
+``` bash
 $ git checkout branchname
-``
+```
 
 ### Tell the upstream which branch is mapping.
-`` bash
+``` bash
 git branch --set-upstream-to = origin / branchname branchname
-``
+```
 
 > From now on, instead of always informing the origin such as: git pull origin master, you will only request: git pull, as the branch is already mapped
