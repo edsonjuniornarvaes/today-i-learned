@@ -4,14 +4,14 @@
 
 ##### Check for the existence of the SSH key.
 
-`` bash
+``` bash
 $ cat ~ / .ssh / id_rsa.pub
-``
+```
 
 ##### Enter the following command with your git account if the SSH key does not exist.
 
-`` bash
+``` bash
 $ ssh-keygen -t rsa -b 2048 -C "your_git_account@example.com"
-``
+```
 
 ##### Having generated the SSH key, copy and paste it into the location for the configuration in your git.
