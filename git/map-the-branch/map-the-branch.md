@@ -2,7 +2,7 @@
 
 #### Verifique a existência de mapeamento da branch, o seguinte aviso irá aparecer caso o mapeamento não exista.
 
-``There is no tracking information for the current branch.
+``bash There is no tracking information for the current branch.
 Please specify which branch you want to merge with.
 See git-pull(1) for details.
 
@@ -12,7 +12,7 @@ See git-pull(1) for details.
 
   git branch --set-upstream-to=origin/<branch> develop
 
-### Faça o checkout na branch em que deseja criar o mapeamento.``
+### Faça o checkout na branch em que deseja criar o mapeamento. ``
 
 ```bash 
 $ git checkout branchname
