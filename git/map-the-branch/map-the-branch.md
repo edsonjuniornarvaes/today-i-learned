@@ -11,7 +11,7 @@ See git-pull(1) for details.
 
   If you wish to set tracking information for this branch you can do so with:
 
-  git branch --set-upstream-to=origin/<branch> develop
+  git branch --set-upstream-to=origin/<branch> branchname
   ```
 
 ### Faça o checkout na branch em que deseja criar o mapeamento.
