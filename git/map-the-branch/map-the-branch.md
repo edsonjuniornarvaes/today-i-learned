@@ -1,28 +1,28 @@
 # Map the branch.
 
-#### Verifique a existência de mapeamento da branch, o seguinte aviso irá aparecer caso o mapeamento não exista.
+#### Check for the existence of a branch mapping, the following warning will appear if the mapping does not exist.
 
-```
+``
 There is no tracking information for the current branch.
 Please specify which branch you want to merge with.
-See git-pull(1) for details.
+See git-pull (1) for details.
 
-  git pull <remote> <branch>
+   git pull <remote> <branch>
 
-  If you wish to set tracking information for this branch you can do so with:
+   If you wish to set tracking information for this branch you can do so with:
 
-  git branch --set-upstream-to=origin/<branch> branchname
-  ```
+   git branch --set-upstream-to = origin / <branch> branchname
+   ``
 
-### Faça o checkout na branch em que deseja criar o mapeamento.
+### Checkout the branch where you want to create the mapping.
 
-```bash 
+`` bash
 $ git checkout branchname
-```
+``
 
-### Diga para o upstream qual branch está mapeando.
-```bash 
-git branch --set-upstream-to=origin/branchname branchname
-```
+### Tell the upstream which branch is mapping.
+`` bash
+git branch --set-upstream-to = origin / branchname branchname
+``
 
-> A partir de agora, ao invés de sempre informar a origem como por exemplo: git pull origin master, você irá apenas solicitar: git pull, pois a branch já está mapeada
+> From now on, instead of always informing the origin such as: git pull origin master, you will only request: git pull, as the branch is already mapped
