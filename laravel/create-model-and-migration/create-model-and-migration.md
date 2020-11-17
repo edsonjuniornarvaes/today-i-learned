@@ -3,5 +3,5 @@
 ### To create the model and generate the migration consecutively enter the following command.
 
 ```bash
-$ php artisan make:model Models\\Namemodel -m
+$ php artisan make:model Models\\ModelName -m
 ```
