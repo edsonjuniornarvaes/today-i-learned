@@ -29,6 +29,6 @@ $ yarn dev
 
 Reference:
 
-- ts/Facilitando-o-desenvolvimento-Nodejs-com-Nodemon/#:~:text=Segundo%20o%20próprio%20website%20do,and%20automatically%20restart%20your%20server.
+- https://woliveiras.com.br/posts/Facilitando-o-desenvolvimento-Nodejs-com-Nodemon
 
 - https://www.robinwieruch.de/node-js-express-tutorial
