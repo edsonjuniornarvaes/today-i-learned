@@ -7,15 +7,12 @@ According to the Nodemon website itself, this module is a utility that will moni
 ```bash
 $ npm install -g nodemon
 ```
-
-
-If you want, you can insert in the package.json file the scripts property with the configuration for defining the variable and pointing to the file in which you want to perform the monitoring.
-
-will look like this:
-
+And to run your scripts, just run:
 ```bash
 $ nodemon script.js
 ```
+
+If you want, you can insert in the package.json file the scripts property with the configuration for defining the variable and pointing to the file in which you want to perform the monitoring.
 
 ```
 {
