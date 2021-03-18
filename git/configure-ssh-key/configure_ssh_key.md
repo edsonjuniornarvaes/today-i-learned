@@ -5,7 +5,7 @@
 ##### Check for the existence of the SSH key.
 
 ``` bash
-$ cat ~ / .ssh / id_rsa.pub
+$ cat ~/.ssh/id_rsa.pub
 ```
 
 ##### Enter the following command with your git account if the SSH key does not exist.
