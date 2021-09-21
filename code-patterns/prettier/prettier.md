@@ -21,7 +21,7 @@ extends: [
 ```js
 plugins: ['react', 'prettier'],
 rules: {
-	'prettier/prettier':  'error',
+    'prettier/prettier':  'error',
 }
 ```
 
