@@ -1,6 +1,6 @@
 ### 📌 Configuring Prettier
 
-Here we will install two dependencies to configure _Prettier_ together with _ESLint_, [(if you haven't installed ESLint, check the installation step by step)](https://github.com/edsonjuniornarvaes/til/tree/master/code-patterns/eslint/eslint.md) or [first](https : //github.com/prettier/eslint-config-prettier) disables conflicting rules between _Prettier_ and _ESLint_ and the [second] (https: //github.com/prettier/eslint-plugin-prettier) turns _Prettier_ and its settings into Rules _ESLint_, so we can integrate the two, let's go:
+Here we will install two dependencies to configure _Prettier_ together with _ESLint_, [(if you haven't installed ESLint, check the installation step by step)](https://github.com/edsonjuniornarvaes/til/tree/master/code-patterns/eslint/eslint.md) or [first](https://github.com/prettier/eslint-config-prettier) disables conflicting rules between _Prettier_ and _ESLint_ and the [second] (https: //github.com/prettier/eslint-plugin-prettier) turns _Prettier_ and its settings into Rules _ESLint_, so we can integrate the two, let's go:
 
 ```console
 yarn add -D prettier eslint-config-prettier eslint-plugin-prettier
