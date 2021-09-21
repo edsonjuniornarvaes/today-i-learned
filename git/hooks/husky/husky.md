@@ -19,7 +19,7 @@ In the package.json file I define the scope of the husky with the hook call and 
   }
 ```
 
-At this point it is necessary to install and configure eslint, in this article I explain how to install eslint step by step [link]().
+At this point it is necessary to install and configure eslint, in this article I explain how to install eslint step by step [link](https://github.com/edsonjuniornarvaes/til/tree/master/code-patterns/eslint/eslint.md).
 
 Here I configure it to automatically fix our changes: `eslint --fix`, if it can't fix the file, it will inform the user about the error, so I set git add to include the changes from` eslint -fix`
 
