@@ -1,6 +1,4 @@
-### 📌 Extension: ESLint
-
-#### Configuring ESLint
+### 📌 Configuring ESLint
 
 To start, we must use the following command:
 
