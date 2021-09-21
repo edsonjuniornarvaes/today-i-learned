@@ -6,7 +6,7 @@ Dedicated space to mention little things I learn on a daily basis.
 | :------- | :-------------------------------- | :--------------- | :-------- | :----------------------------------------------------------------------------------- |
 | :zap:    | Docker                            | :bookmark:       | 1 article | [GO](https://github.com/edsonjuniornarvaes/til/tree/master/docker)                   |
 | :zap:    | Editor                            | :bookmark:       | 1 article | [GO](https://github.com/edsonjuniornarvaes/til/tree/master/editor)                   |
-| :zap:    | Git                               | :bookmark:       | 4 article | [GO](https://github.com/edsonjuniornarvaes/til/tree/master/git)                      |
+| :zap:    | Git                               | :bookmark:       | 5 article | [GO](https://github.com/edsonjuniornarvaes/til/tree/master/git)                      |
 | :zap:    | Laravel                           | :bookmark:       | 5 article | [GO](https://github.com/edsonjuniornarvaes/til/tree/master/laravel)                  |
 | :zap:    | NextJs                            | :bookmark:       | 1 article | [GO](https://github.com/edsonjuniornarvaes/til/tree/master/nextjs)                   |
 | :zap:    | NodeJs                            | :bookmark:       | 2 article | [GO](https://github.com/edsonjuniornarvaes/til/tree/master/nodejs)                   |
