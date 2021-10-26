@@ -68,7 +68,7 @@ git commit -m "feat: add initial configuration"
 
 ##### Now let's configure and install commitizen
 
-- to install, let's enter the following command as development dependency
+##### To install, let's enter the following command as development dependency
 
 ```bash
 yarn add commitizen -D
