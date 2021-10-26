@@ -80,7 +80,7 @@ yarn add commitizen -D
 commitizen init cz-conventional-changelog --yarn --dev --exact
 ```
 
-##### now we need to configure the execution, we have two ways.
+##### Now we need to configure the execution, we have two ways.
 
 ##### We can create a script in package.json
 
