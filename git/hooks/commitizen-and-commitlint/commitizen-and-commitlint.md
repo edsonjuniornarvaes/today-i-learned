@@ -24,7 +24,7 @@ yarn add @commitlint/config-conventional @commitlint/cli -D
 module.exports = { extends: ["@commitlint/config-conventional"] };
 ```
 
-##### Now that commitlint is ready to be used, we need to inform you that it needs to be executed after the commit request). For this we will integrate the husky ([configure husky + lint-staged](https://github.com/edsonjuniornarvaes/Til/blob/master/git/hooks/commitizen-and-commitlint/commitizen-and-commitlint.md)), the husky is a tool that allows us to create automated functionality based on git commands.
+##### Now that commitlint is ready to be used, we need to inform you that it needs to be executed after the commit request). For this we will integrate the husky ([configure husky + lint-staged](https://github.com/edsonjuniornarvaes/Til/blob/master/git/hooks/husky-and-lint-staged/husky-and-lint-staged.md)), the husky is a tool that allows us to create automated functionality based on git commands.
 
 ##### Before installing husky, we need to start git in our project so that the mapping between husky and git is done correctly:
 
