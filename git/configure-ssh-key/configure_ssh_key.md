@@ -1,17 +1,16 @@
 # Configure SSH key.
 
-#### With SSH installed on the machine follow the steps below.
+#### With SSH installed on the machine follow the steps below.`
 
-##### Check for the existence of the SSH key.
+##### Generate your new key.
 
 ``` bash
-$ cat ~/.ssh/id_rsa.pub
+ssh-keygen -t rsa
 ```
 
-##### Enter the following command with your git account if the SSH key does not exist.
-
+##### View your new public key.
 ``` bash
-$ ssh-keygen -t rsa -b 2048 -C "your_git_account@example.com"
+cat /home/renan/.ssh/id_rsa.pub
 ```
 
 ##### Having generated the SSH key, copy and paste it into the location for the configuration in your git.
