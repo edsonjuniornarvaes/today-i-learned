@@ -1,7 +1,5 @@
 # Configure SSH key.
 
-#### With SSH installed on the machine follow the steps below.`
-
 ##### Generate your new key.
 
 ``` bash
