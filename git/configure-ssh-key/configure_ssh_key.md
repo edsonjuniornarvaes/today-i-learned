@@ -1,4 +1,4 @@
-# Configure SSH key.
+# Configure your ssh key
 
 ##### Generate your new key.
 
