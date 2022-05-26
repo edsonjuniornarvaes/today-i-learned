@@ -8,7 +8,7 @@ ssh-keygen -t rsa
 
 ##### View your new public key.
 ``` bash
-cat /home/renan/.ssh/id_rsa.pub
+cat /home/${you_user}/.ssh/id_rsa.pub
 ```
 
 ##### Having generated the SSH key, copy and paste it into the location for the configuration in your git.
