@@ -35,7 +35,7 @@ git init
 ##### Now let's install husky as a development dependency
 
 ```bash
-wire add husky -D
+yarn add husky -D
 ```
 
 ##### Below we will define that every time the user includes a confirmation message, the husky will execute the commitlint, for that we will include the following code in our package.json
@@ -51,7 +51,7 @@ wire add husky -D
 ##### To test, just include a commit so that commitlint will already identify the message that does not follow Conventional Commits standards
 
 ```bash
-git add.
+git add .
 
 git commit -m "initial commit"
 ```
@@ -93,7 +93,7 @@ commitizen init cz-conventional-changelog --yarn --dev --exact
 ##### Will start the process of a new commit, to commit now just insert
 
 ```bash
-git add.
+git add .
 
 Yarn commit
 ```
