@@ -6,7 +6,7 @@ Simple and fast way to update the node version on your machine, let's install pa
 sudo npm install -g n
 ```
 
-Right after we can install the latest version or stable version as you prefer
+Then we can install the latest version or stable version as you prefer
 
 Latest version
 ```bash
