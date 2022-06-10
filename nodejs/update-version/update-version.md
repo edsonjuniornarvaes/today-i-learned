@@ -1,3 +1,5 @@
+### Updating the Node Version
+
 Simple and fast way to update the node version on your machine, let's install package n globally
 
 ```bash
