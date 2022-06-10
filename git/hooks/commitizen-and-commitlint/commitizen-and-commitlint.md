@@ -18,6 +18,9 @@
 yarn add @commitlint/config-conventional @commitlint/cli -D
 ```
 
+If necessary update the node, I leave a tutorial in the link below
+[Updating the Node Version](https://github.com/edsonjuniornarvaes/til/blob/master/nodejs/update-version/update-version.md)
+
 ##### Now let's create the commitlint.config.js file and add the config-conventional configuration
 
 ```js
