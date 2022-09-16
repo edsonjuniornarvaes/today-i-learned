@@ -1,5 +1,3 @@
-### Change the repository source
-
 ##### First check the source of your repository.
 
 ``` bash
