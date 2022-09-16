@@ -1,20 +1,18 @@
-## Environment Resources
-
-### Removing all resources
+##### Removing all resources
 
 ##### Docker offers a command to remove unused containers, networks and images.
 
-#### To remove:
+##### To remove:
 - All containers stopped
 - All networks not used by at least one container
 - All pending images (dangling images)
 - All pending cache build
 
 ```bash
-$ docker system prune
+docker system prune
 ```
 
-#### To remove:
+##### To remove:
 - All containers stopped
 - All networks not used by at least one container
 - All volumes not used by at least one container
@@ -22,9 +20,8 @@ $ docker system prune
 - All cache build pending
 
 ```bash
-$ docker system prune --all --force --volumes
+docker system prune --all --force --volumes
 ```
 
 Reference:
-
 - http://www.macoratti.net/19/02/dock_limp1.htm
