@@ -1,5 +1,3 @@
-# Semantic commit messages
-
 See how a minor change to your commit message style can make you a better programmer.
 
 Format: `<type>(<scope>): <subject>`
@@ -25,5 +23,4 @@ feat: add hat wobble
 - `chore`: (updating grunt tasks etc; no production code change)
 
 Reference:
-
 - https://seesparkbox.com/foundry/semantic_commit_messages
