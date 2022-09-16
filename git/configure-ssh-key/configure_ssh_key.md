@@ -1,5 +1,3 @@
-# Configure your ssh key
-
 ##### Generate your new key.
 
 ``` bash
