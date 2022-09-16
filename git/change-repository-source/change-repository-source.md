@@ -1,6 +1,4 @@
-# Change the repository source.
-
-##### Within the project, follow the steps below.
+### Change the repository source
 
 ##### First check the source of your repository.
 
