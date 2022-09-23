@@ -22,6 +22,3 @@ docker system prune
 ```bash
 docker system prune --all --force --volumes
 ```
-
-Reference:
-- http://www.macoratti.net/19/02/dock_limp1.htm
