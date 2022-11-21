@@ -10,6 +10,7 @@ Dedicated space to mention little things I learn on a daily basis.
 | :zap:    | Laravel                           | :bookmark:       | 5 article | [GO](https://github.com/edsonjuniornarvaes/til/tree/master/laravel)                  |
 | :zap:    | NextJs                            | :bookmark:       | 1 article | [GO](https://github.com/edsonjuniornarvaes/til/tree/master/nextjs)                   |
 | :zap:    | NodeJs                            | :bookmark:       | 3 article | [GO](https://github.com/edsonjuniornarvaes/til/tree/master/nodejs)                   |
-| :zap:    | React                             | :bookmark:       | 2 article | [GO](https://github.com/edsonjuniornarvaes/til/tree/master/reactjs)                  |
+| :zap:    | React                             | :bookmark:       | 2 article | [GO](https://github.com/edsonjuniornarvaes/til/tree/master/reactjs)   
+| :zap:    | Linux                             | :bookmark:       | 1 article | [GO](https://github.com/edsonjuniornarvaes/til/tree/master/linux)                 |
 
 - Edson Junior de Andrade Narvaes.
