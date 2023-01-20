@@ -1,25 +1,23 @@
-See how a minor change to your commit message style can make you a better programmer.
+Check for the existence of a branch mapping, the following warning will appear if the mapping does not exist.
 
-Format: `<type>(<scope>): <subject>`
-
-`<scope>` is optional
-
-Example
 ```
-feat: add hat wobble
-^--^  ^------------^
-|     |
-|     +-> Summary in present tense.
-|
-+-------> Type: chore, docs, feat, fix, refactor, style, or test.
-```
-- `feat`: (new feature for the user, not a new feature for build script)
-- `fix`: (bug fix for the user, not a fix to a build script)
-- `docs`: (changes to the documentation)
-- `style`: (formatting, missing semi colons, etc; no production code change)
-- `refactor`: (refactoring production code, eg. renaming a variable)
-- `test`: (adding missing tests, refactoring tests; no production code change)
-- `chore`: (updating grunt tasks etc; no production code change)
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull (1) for details.
+git pull <remote> <branch>
+If you wish to set tracking information 
+for this branch you can do so with:
+git branch --set-upstream-to = origin / <branch> branchname
+ ```
 
-Reference:
-- https://seesparkbox.com/foundry/semantic_commit_messages
+Checkout the branch where you want to create the mapping.
+``` bash
+git checkout branchname
+```
+
+Tell the upstream which branch is mapping.
+``` bash
+git branch --set-upstream-to = origin / branchname branchname
+```
+
+From now on, instead of always informing the origin such as: git pull origin master, you will only request: git pull, as the branch is already mapped
