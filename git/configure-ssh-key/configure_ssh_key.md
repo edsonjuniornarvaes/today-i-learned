@@ -1,12 +1,15 @@
 Generate your new key.
 
+Run the following command, some questions will be displayed, in my case I just pressed enter until the end:
+
 ``` bash
 ssh-keygen -t rsa
 ```
 
-View your new public key.
+Run the command below replacing "edsonjunior" with your username and it will display your SSH key:
+
 ``` bash
-cat /home/${you_user}/.ssh/id_rsa.pub
+cat /home/edsonjunior/.ssh/id_rsa.pub
 ```
 
 ---
