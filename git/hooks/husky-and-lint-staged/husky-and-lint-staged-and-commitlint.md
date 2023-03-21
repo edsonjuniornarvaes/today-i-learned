@@ -1,4 +1,4 @@
-![2](https://user-images.githubusercontent.com/42126267/226604074-9e39d4ac-9c17-4515-a1b9-2edfcf2de7e7.png)
+![2](https://user-images.githubusercontent.com/42126267/226604259-e1abcc22-88fe-4992-ac0a-ce9593110cc7.png)
 
 In this post, I'll show you how to improve your husky workflow, using pre-commit to trigger error checking on your code before uploading it to the repository.
 
