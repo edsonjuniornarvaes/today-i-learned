@@ -1,5 +1,6 @@
-### Configure and install Commitizen + Commitlint tools
+![1](https://user-images.githubusercontent.com/42126267/226603096-72918ca3-79c8-456f-89fd-9ffbdfe748ef.png)
 
+### Configure and install Commitizen + Commitlint tools
 ---
 
 What is Commitizen?
