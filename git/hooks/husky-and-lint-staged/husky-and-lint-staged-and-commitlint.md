@@ -1,30 +1,99 @@
 In this post, I'll show you how to improve your husky workflow, using pre-commit to trigger error checking on your code before uploading it to the repository.
 
-To get started, let's install husky with the following command:
-
-```console
-yarn add husky -D
+Start husky with the following command:
+```sh
+npx husky-init
 ```
 
-In the package.json file I define the scope of the husky with the hook call and then the scope with the definition of the files to be checked, in the example I define the files that end in js and ts.
-
+Verify that the husky information has been entered into your package.json:
 ```json
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+{
+
+  "scripts": {
+    ...
+    "prepare": "husky install"
   },
-  "lint-staged": {
-    "*.{js, ts}": [""]
+  "devDependencies": {
+    ...
+    "husky": "^6.0.0"
   }
+}
 ```
 
-At this point it is necessary to install and configure eslint, in this article I explain how to install eslint step by step [link](https://github.com/edsonjuniornarvaes/til/tree/master/code-patterns/eslint/eslint.md).
+Install husky in your project:
+```sh
+#yarn 
+yarn; npx husky add .husky/commit-msg 'npx --no-install commitlint --edit ""'
 
-Here I configure it to automatically fix our changes: `eslint --fix`, if it can't fix the file, it will inform the user about the error, so I set git add to include the changes from` eslint -fix`
+#npm 
+npm install; npx husky add .husky/commit-msg 'npx --no-install commitlint --edit ""'
+```
 
+Checking `.husky/commit-msg` file you might find the following bash script:
+```sh
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx --no-install commitlint --edit ""
+```
+
+Let's add the commit-lint package to the lint confirmation messages:
+```sh
+#yarn 
+yarn add @commitlint/config-conventional @commitlint/cli --dev
+
+#npm 
+npm install @commitlint/config-conventional @commitlint/cli --dev
+```
+
+Create the commitlint.config.js file in the root of your directory and insert the following contents:
+```js
+module.exports = { extends: ['@commitlint/config-conventional'] };
+```
+
+Now we will install lint-staged:
+```sh
+#yarn 
+yarn add lint-staged --dev
+
+#npm 
+npm install lint-staged --save-dev
+```
+
+In package.json insert the following script for running lint-staged into our project:
 ```json
-  "lint-staged": {
-      "*.{js, ts}": ["eslint --fix", "git add ."]
-  }
+ {
+   "scripts": {
+     ...
+     "pre-commit": "lint-staged",
+     "prepare": "husky install"
+   }
+}
 ```
+
+We will create the `.lintstagedrc` file to run eslint and prettier at commit time:
+```js
+{
+  "src/**/*.+(js|json|ts|tsx)": ["eslint"],
+  "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": ["eslint --fix", "prettier --write"]
+}
+```
+
+Inside `.husky/pre-commit` insert the following script:
+```sh
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+yarn run pre-commit
+```
+
+Finally, run the command that created the 'prepare-commit-msg' file:
+```sh
+#yarn
+npx husky add .husky/prepare-commit-msg 'exec < /dev/tty && node_modules/.bin/cz --hook || true'; yarn
+
+#npm
+npx husky add .husky/prepare-commit-msg 'exec < /dev/tty && node_modules/.bin/cz --hook || true'; npm install
+```
+
+That's it! Now test everything we have installed.
