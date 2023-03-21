@@ -62,7 +62,7 @@ npm install @commitlint/config-conventional @commitlint/cli --dev
 
 <br>
 
-Create the commitlint.config.js file in the root of your directory and insert the following contents:
+Create the `commitlint.config.js` file in the root of your directory and insert the following contents:
 ```js
 module.exports = { extends: ['@commitlint/config-conventional'] };
 ```
