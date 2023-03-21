@@ -35,7 +35,7 @@ Before installing husky, we need to start git in our project so that the mapping
 git init
 ```
 
-You can perform the installation of husky through this [article]([https://dev.to/edsonjuniornarvaes/husky-lint-staged-2bjo](https://github.com/edsonjuniornarvaes/til/blob/master/git/hooks/husky-and-lint-staged/husky-and-lint-staged-and-commitlint.md).
+You can perform the installation of husky through this [article](https://github.com/edsonjuniornarvaes/til/blob/master/git/hooks/husky-and-lint-staged/husky-and-lint-staged-and-commitlint.md).
 
 To test, just include a commit so that commitlint will already identify the message that does not follow Conventional Commits standards
 
