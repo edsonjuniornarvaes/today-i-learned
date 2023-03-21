@@ -123,7 +123,7 @@ To break a line, I can insert at the end of the line: \n\ nTest message
 
 Having followed the steps above, your commit will be completed
 
-#We can check the process we just did
+We can check the process we just did
 
 ```bash
 git log
