@@ -10,7 +10,7 @@ What is Commitlint?
 
 > [commitlint](https://commitlint.js.org/#/) will help you keep your commit within the conventions, will validate and indicate errors in your message.
 
-Check the [commitment types](https://github.com/edsonjuniornarvaes/Til/blob/master/git/semantic-commit-messages/semantic-commit-messages.md)
+Check the [commitment types](https://github.com/edsonjuniornarvaes/Til/blob/master/git/semantic-commit-messages/semantic-commit-messages.md))
 
 Let's install two tools, they are commitlint/config-conventional and commitlint/cli, to install just insert the following command as a development dependency:
 
