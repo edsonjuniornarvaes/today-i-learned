@@ -76,6 +76,17 @@ yarn add --dev commitizen cz-conventional-changelog
 
 <br>
 
+In package.json add the following line
+```json
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+```
+
+<br>
+
 Now we need to configure the execution, we have two ways.
 
 We can create a script in package.json
