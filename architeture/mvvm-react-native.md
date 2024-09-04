@@ -22,6 +22,12 @@ No contexto de React Native, o MVVM pode ajudar a estruturar a lógica de negóc
 
 ---
 
+### **Grandes empresas que Utilizam**
+
+O padrão MVVM é utilizado por várias empresas de tecnologia para melhorar a modularidade, testabilidade e manutenção de seus aplicativos. Entre os exemplos estão a **Microsoft** (criadora do MVVM), **Slack**, **Netflix**, **Airbnb**, **Uber**, **Spotify**, **Alibaba, entre outras**. Essas empresas adotam o MVVM para criar código mais organizado e escalável.
+
+---
+
 ### **Prós e Contras**
 
 **Prós:**
@@ -35,12 +41,6 @@ No contexto de React Native, o MVVM pode ajudar a estruturar a lógica de negóc
 - **Curva de aprendizado**: Pode ser difícil para desenvolvedores que não estão familiarizados com o padrão MVVM adaptarem-se à sua utilização.
 - **Complexidade inicial**: Implementar MVVM em um projeto existente pode adicionar complexidade inicial, especialmente se o projeto já estiver grande e desorganizado.
 - **Mais código boilerplate**: Em alguns casos, pode haver necessidade de mais código boilerplate, o que pode aumentar o tempo de desenvolvimento. Isso significa que, para cada View, você precisa criar uma nova classe ou função para a ViewModel. Se não for bem planejado, isso pode levar à duplicação de código, especialmente se várias ViewModels tiverem lógica semelhante.
-
----
-
-### **Casos de Sucesso e Empresas que Utilizam**
-
-O padrão MVVM é utilizado por várias empresas de tecnologia para melhorar a modularidade, testabilidade e manutenção de seus aplicativos. Entre os exemplos de sucesso estão a **Microsoft** (criadora do MVVM), **Slack**, **Netflix**, **Airbnb**, **Uber**, **Spotify**, **Alibaba, entre outras**. Essas empresas adotam o MVVM para criar código mais organizado e escalável, facilitando a manutenção e atualização das aplicações, além de melhorar a separação entre a lógica de negócios e a interface do usuário.
 
 ---
 
