@@ -47,7 +47,7 @@ O padrão MVVM é utilizado por várias empresas de tecnologia para melhorar a m
 ### **Dicas para Implementar**
 
 1. **Comece pequeno**: Implemente o MVVM em uma parte pequena do projeto para entender como ele funciona antes de aplicá-lo em todo o aplicativo.
-2. **Use hooks personalizados**: Utilize hooks personalizados para encapsular a lógica da ViewModel e gerenciar o estado de forma mais clara.
+2. **Use hooks personalizados: Para facilitar a implementação da ViewModel, você pode criar hooks personalizados que encapsulam a lógica da ViewModel. Podem ser reutilizados em diferentes componentes, o que é ideal para manter consistência e evitar duplicação de código.
 3. **Mantenha a ViewModel independente da UI**: Certifique-se de que a ViewModel não dependa de componentes da UI, para facilitar testes e reutilização.
 
 ---
