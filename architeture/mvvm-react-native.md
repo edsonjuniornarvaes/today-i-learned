@@ -17,7 +17,7 @@ No contexto de React Native, o MVVM pode ajudar a estruturar a lógica de negóc
 ### **Por que Utilizar?**
 
 - **Melhor organização do código**: O MVVM ajuda a manter o código mais limpo e organizado, facilitando o trabalho de diferentes equipes no mesmo projeto.
-- **Facilidade de testes**: A lógica de negócios e de apresentação isolada na ViewModel facilita a criação de testes automatizados.
+- **Facilidade de testes**: A lógica de negócios e de apresentação isolada na ViewModel facilita a criação de testes.
 - **Manutenção e escalabilidade**: Com a clara separação de responsabilidades, é mais fácil adicionar novas funcionalidades e corrigir bugs.
 
 ---
@@ -29,7 +29,6 @@ No contexto de React Native, o MVVM pode ajudar a estruturar a lógica de negóc
 - **Separação de responsabilidades**: Facilita a manutenção do código, separando claramente a lógica de negócios da apresentação.
 - **Reutilização de código**: A ViewModel pode ser reutilizada em diferentes partes da aplicação, reduzindo a duplicação de código.
 - **Facilidade de manutenção**: Projetos grandes e complexos se tornam mais fáceis de manter e evoluir com o tempo, pois a estrutura do MVVM promove um código mais limpo e organizado.
-- **Testabilidade**: A lógica de apresentação é isolada na ViewModel, o que facilita a criação de testes unitários para garantir o comportamento correto sem depender da UI.
 
 **Contras:**
 
