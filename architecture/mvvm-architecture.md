@@ -1,4 +1,4 @@
-### MVVM for React Native
+# MVVM for React Native
 
 # Understanding MVVM in React Native
 
