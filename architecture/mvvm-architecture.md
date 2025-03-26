@@ -1,6 +1,6 @@
 # MVVM for React Native
 
-# Understanding MVVM in React Native
+### Understanding MVVM in React Native
 
 The MVVM (Model-View-ViewModel) pattern is widely used in software development to improve code organization, ease maintenance, and increase application testability. It helps to efficiently structure the business logic, user interface (UI), and presentation layer. In the context of React Native, MVVM can be implemented using functional components for Views, hooks to manage state, and functions for ViewModel logic, as well as external APIs or local storage for the Model.
 
