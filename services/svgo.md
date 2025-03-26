@@ -39,4 +39,4 @@ svgo step_units.svg -o step_units.min.svg
 ```
 That's it! Your svg is optimized, all the redundancies and unnecessary parameters that come with an svg have been removed and it is ready to use.
 
-For more complete content, visit the [SVGO](https://github.com/svg/svgo) documentation
+For more complete content, visit the [SVGO documentation](https://github.com/svg/svgo)
