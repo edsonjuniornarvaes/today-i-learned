@@ -35,7 +35,7 @@ module.exports = {
 ```
 Go to the location where the svg you want to optimize is located and run the following command:
 ```shell
-svgo nome_file.svg -o step_units.min.svg
+svgo file_name.svg -o file_name.min.svg
 ```
 That's it! Your svg is optimized, all the redundancies and unnecessary parameters that come with an svg have been removed and it is ready to use.
 
